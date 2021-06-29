@@ -1,0 +1,78 @@
+====================================================================================
+|                                Hexadecimal Number System                         |
+|                                Author: Owen Boreham                              |
+|                                Date: 6/29/2021                                   |
+====================================================================================
+
+Hexadecimal number system uses base 16. The digits in this System range from 0 to 15.
+By convention, the letters A through F is used to represent the hexadecimal digits corresponding 
+values 10 through 15.
+
+hexadecimal numbers in computing is used for abbreviating lenghty binary representations. Basically,
+hexadecimal number system represents a binary data by dividing each byte in half and expressing the 
+value of each half-byte. The following table provides the decimal, binary, and hexadecimal equivalents.
+
+  ----------------------------------
+  | Decimal | Binary | Hexadecimal |
+  ----------------------------------
+  | 0       | 0      | 0           |
+  ----------------------------------
+  | 1       | 1      | 1           |
+  ----------------------------------
+  | 2       | 10     | 2           |
+  ----------------------------------
+  | 3       | 11     | 3           |
+  ----------------------------------
+  | 4       | 100    | 4           |
+  ----------------------------------
+  | 5       | 101    | 5           |
+  ----------------------------------
+  | 6       | 110    | 6           |
+  ----------------------------------
+  | 7       | 111    | 7           |
+  ----------------------------------
+  | 8       | 1000   | 8           |
+  ----------------------------------
+  | 9       | 1001   | 9           |
+  ----------------------------------
+  | 10      | 1010   | A           |
+  ----------------------------------
+  | 11      | 1011   | B           |
+  ----------------------------------
+  | 12      | 1100   | C           |
+  ----------------------------------
+  | 13      | 1101   | D           |
+  ----------------------------------
+  | 14      | 1110   | E           |
+  ----------------------------------
+  | 15      | 1111   | F           |
+  ----------------------------------
+
+To convert a binary number to its hexadecimal equivalent, break it into groups of 4 consecutive
+groups each, starting from the right, and write those groups over the corresponding digits of the 
+hexadecimal number.
+
+Example - Binary number 1000 1100 1101 0001 is equivalent to hexadecimal = 8CD1
+
+To convert a hexadecimal number to binary, just write each hexadecimal digit into its 4-digit binary
+equivalent.
+
+Example - Hexadecimal number FAD8 is equivalent to binary - 1111 1010 1101 1000
+
+-- Working out
+# 0 = 0
+# 1 = 1
+# 10 = 2
+# 11 = 3
+# 100 = 4
+# 101 = 5
+# 110 = 6
+# 111 = 7
+# 1000 = 8
+# 1001 = 9
+# 1010 = 10 = A
+# 1011 = 11 = B
+# 1100 = 12 = C
+# 1101 = 13 = D
+# 1110 = 14 = E
+# 1111 = 15 = F
