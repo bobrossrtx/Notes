@@ -1,0 +1,25 @@
+====================================================================================
+|                                Binary Number System                              |
+|                                Author: Owen Boreham                              |
+|                                Date: 6/29/2021                                   |
+====================================================================================
+
+Every number system uses positional notation, i.e., each position in which a digit 
+is written has a different positional value. Each position is power of the base, 
+which is 2 for binary number system, and these powers begin at 0 and increase by 1.
+
+The following table shows the positional values for 
+an 8-bit binary number, where all bits are set ON.
+
+----------------------------------------------------------------------------------------
+| Bit Value                           |   1   | 1   | 1   | 1   | 1   | 1   | 1   | 1  |
+----------------------------------------------------------------------------------------
+| Position value as a power of base 2 |   128 | 64  | 32  | 16  | 8   | 4   | 2   | 1  |
+----------------------------------------------------------------------------------------
+| Bit Number                          |   7   | 6   | 5   | 4   | 3   | 2   | 1   | 0  |
+----------------------------------------------------------------------------------------
+
+The value of a binary number is based on the presence of 1 bits and their position value.
+So, the value of a given binary number is -
+1 + 2 + 4 + 8 + 16 + 32 + 128 = 256
+which is the same as (2^8 - 1)
